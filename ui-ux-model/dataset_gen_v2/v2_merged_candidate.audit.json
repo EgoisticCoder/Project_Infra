@@ -1,0 +1,14 @@
+{
+  "input": "v2_merged_candidate.jsonl",
+  "rows": 523,
+  "unique_ids": 523,
+  "duplicate_ids": [],
+  "duplicate_normalized_tasks": {},
+  "status_counts": {
+    "needs_review": 500,
+    "rendered_needs_visual_review": 20,
+    "accepted_seed": 3
+  },
+  "near_duplicate_summary_pairs_at_0_92": [],
+  "sha256": "f04ed381001f8a24805b9c0b8dd1ddf238d26d85d621983d718cb93156c3c394"
+}

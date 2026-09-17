@@ -1,0 +1,24 @@
+{
+  "input": "v2_review_ready.jsonl",
+  "output": "v2_training_candidate.jsonl",
+  "rejected_output": "v2_training_rejected.jsonl",
+  "input_records": 523,
+  "accepted_records": 348,
+  "rejected_records": 175,
+  "rejection_reasons": {
+    "Corrected page has 6 unlabeled interactive control(s) at 1440px.": 25,
+    "Corrected page has 6 unlabeled interactive control(s) at 390px.": 25,
+    "Corrected page has 2 unlabeled interactive control(s) at 1440px.": 25,
+    "Corrected page has 2 unlabeled interactive control(s) at 390px.": 25,
+    "Corrected page has 1 unlabeled interactive control(s) at 1440px.": 75,
+    "Corrected page has 1 unlabeled interactive control(s) at 390px.": 75,
+    "Corrected page has 3 unlabeled interactive control(s) at 1440px.": 25,
+    "Corrected page has 3 unlabeled interactive control(s) at 390px.": 25,
+    "Corrected page overflows horizontally at 390px.": 26
+  },
+  "visual_scores_assigned": false,
+  "screenshots_embedded": false,
+  "ready_for_public_release": false,
+  "ready_for_preliminary_sft": true,
+  "warning": "Accepted records passed objective checks but still require visual/human review before production training or release."
+}

@@ -1,0 +1,13 @@
+{
+  "input": "v2_merged_candidate.jsonl",
+  "output": "v2_review_ready.jsonl",
+  "records": 523,
+  "objective_finding_categories": {
+    "responsive": 1072,
+    "accessibility_structure": 300
+  },
+  "visual_scores_assigned": false,
+  "screenshots_embedded": false,
+  "ready_for_final_training": false,
+  "reason": "Human or vision-model visual review is still required; this pass does not invent visual scores."
+}

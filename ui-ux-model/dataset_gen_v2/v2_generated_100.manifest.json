@@ -1,0 +1,8 @@
+{
+  "output": "v2_generated_100.jsonl",
+  "records": 100,
+  "product_categories": 20,
+  "variants": 5,
+  "render_status": "not_rendered",
+  "next_step": "Run browser rendering and quality validation before training."
+}

@@ -1,0 +1,596 @@
+{
+  "sources": {
+    "outputs/forma_single_300.jsonl": {
+      "input_rows": 300,
+      "accepted_rows": 300
+    },
+    "outputs/forma_v2_unique_200_batch2.jsonl": {
+      "input_rows": 200,
+      "accepted_rows": 200
+    },
+    "v2_generated_100_rendered.jsonl": {
+      "input_rows": 100,
+      "accepted_rows": 20
+    },
+    "v2_seed_dataset.jsonl": {
+      "input_rows": 3,
+      "accepted_rows": 3
+    }
+  },
+  "duplicate_records_removed": [
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 21,
+      "example_id": "forma_v2_generated_021",
+      "duplicate_of": "forma_v2_generated_001",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 22,
+      "example_id": "forma_v2_generated_022",
+      "duplicate_of": "forma_v2_generated_002",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 23,
+      "example_id": "forma_v2_generated_023",
+      "duplicate_of": "forma_v2_generated_003",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 24,
+      "example_id": "forma_v2_generated_024",
+      "duplicate_of": "forma_v2_generated_004",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 25,
+      "example_id": "forma_v2_generated_025",
+      "duplicate_of": "forma_v2_generated_005",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 26,
+      "example_id": "forma_v2_generated_026",
+      "duplicate_of": "forma_v2_generated_006",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 27,
+      "example_id": "forma_v2_generated_027",
+      "duplicate_of": "forma_v2_generated_007",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 28,
+      "example_id": "forma_v2_generated_028",
+      "duplicate_of": "forma_v2_generated_008",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 29,
+      "example_id": "forma_v2_generated_029",
+      "duplicate_of": "forma_v2_generated_009",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 30,
+      "example_id": "forma_v2_generated_030",
+      "duplicate_of": "forma_v2_generated_010",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 31,
+      "example_id": "forma_v2_generated_031",
+      "duplicate_of": "forma_v2_generated_011",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 32,
+      "example_id": "forma_v2_generated_032",
+      "duplicate_of": "forma_v2_generated_012",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 33,
+      "example_id": "forma_v2_generated_033",
+      "duplicate_of": "forma_v2_generated_013",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 34,
+      "example_id": "forma_v2_generated_034",
+      "duplicate_of": "forma_v2_generated_014",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 35,
+      "example_id": "forma_v2_generated_035",
+      "duplicate_of": "forma_v2_generated_015",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 36,
+      "example_id": "forma_v2_generated_036",
+      "duplicate_of": "forma_v2_generated_016",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 37,
+      "example_id": "forma_v2_generated_037",
+      "duplicate_of": "forma_v2_generated_017",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 38,
+      "example_id": "forma_v2_generated_038",
+      "duplicate_of": "forma_v2_generated_018",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 39,
+      "example_id": "forma_v2_generated_039",
+      "duplicate_of": "forma_v2_generated_019",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 40,
+      "example_id": "forma_v2_generated_040",
+      "duplicate_of": "forma_v2_generated_020",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 41,
+      "example_id": "forma_v2_generated_041",
+      "duplicate_of": "forma_v2_generated_001",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 42,
+      "example_id": "forma_v2_generated_042",
+      "duplicate_of": "forma_v2_generated_002",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 43,
+      "example_id": "forma_v2_generated_043",
+      "duplicate_of": "forma_v2_generated_003",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 44,
+      "example_id": "forma_v2_generated_044",
+      "duplicate_of": "forma_v2_generated_004",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 45,
+      "example_id": "forma_v2_generated_045",
+      "duplicate_of": "forma_v2_generated_005",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 46,
+      "example_id": "forma_v2_generated_046",
+      "duplicate_of": "forma_v2_generated_006",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 47,
+      "example_id": "forma_v2_generated_047",
+      "duplicate_of": "forma_v2_generated_007",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 48,
+      "example_id": "forma_v2_generated_048",
+      "duplicate_of": "forma_v2_generated_008",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 49,
+      "example_id": "forma_v2_generated_049",
+      "duplicate_of": "forma_v2_generated_009",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 50,
+      "example_id": "forma_v2_generated_050",
+      "duplicate_of": "forma_v2_generated_010",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 51,
+      "example_id": "forma_v2_generated_051",
+      "duplicate_of": "forma_v2_generated_011",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 52,
+      "example_id": "forma_v2_generated_052",
+      "duplicate_of": "forma_v2_generated_012",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 53,
+      "example_id": "forma_v2_generated_053",
+      "duplicate_of": "forma_v2_generated_013",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 54,
+      "example_id": "forma_v2_generated_054",
+      "duplicate_of": "forma_v2_generated_014",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 55,
+      "example_id": "forma_v2_generated_055",
+      "duplicate_of": "forma_v2_generated_015",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 56,
+      "example_id": "forma_v2_generated_056",
+      "duplicate_of": "forma_v2_generated_016",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 57,
+      "example_id": "forma_v2_generated_057",
+      "duplicate_of": "forma_v2_generated_017",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 58,
+      "example_id": "forma_v2_generated_058",
+      "duplicate_of": "forma_v2_generated_018",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 59,
+      "example_id": "forma_v2_generated_059",
+      "duplicate_of": "forma_v2_generated_019",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 60,
+      "example_id": "forma_v2_generated_060",
+      "duplicate_of": "forma_v2_generated_020",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 61,
+      "example_id": "forma_v2_generated_061",
+      "duplicate_of": "forma_v2_generated_001",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 62,
+      "example_id": "forma_v2_generated_062",
+      "duplicate_of": "forma_v2_generated_002",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 63,
+      "example_id": "forma_v2_generated_063",
+      "duplicate_of": "forma_v2_generated_003",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 64,
+      "example_id": "forma_v2_generated_064",
+      "duplicate_of": "forma_v2_generated_004",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 65,
+      "example_id": "forma_v2_generated_065",
+      "duplicate_of": "forma_v2_generated_005",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 66,
+      "example_id": "forma_v2_generated_066",
+      "duplicate_of": "forma_v2_generated_006",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 67,
+      "example_id": "forma_v2_generated_067",
+      "duplicate_of": "forma_v2_generated_007",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 68,
+      "example_id": "forma_v2_generated_068",
+      "duplicate_of": "forma_v2_generated_008",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 69,
+      "example_id": "forma_v2_generated_069",
+      "duplicate_of": "forma_v2_generated_009",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 70,
+      "example_id": "forma_v2_generated_070",
+      "duplicate_of": "forma_v2_generated_010",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 71,
+      "example_id": "forma_v2_generated_071",
+      "duplicate_of": "forma_v2_generated_011",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 72,
+      "example_id": "forma_v2_generated_072",
+      "duplicate_of": "forma_v2_generated_012",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 73,
+      "example_id": "forma_v2_generated_073",
+      "duplicate_of": "forma_v2_generated_013",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 74,
+      "example_id": "forma_v2_generated_074",
+      "duplicate_of": "forma_v2_generated_014",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 75,
+      "example_id": "forma_v2_generated_075",
+      "duplicate_of": "forma_v2_generated_015",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 76,
+      "example_id": "forma_v2_generated_076",
+      "duplicate_of": "forma_v2_generated_016",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 77,
+      "example_id": "forma_v2_generated_077",
+      "duplicate_of": "forma_v2_generated_017",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 78,
+      "example_id": "forma_v2_generated_078",
+      "duplicate_of": "forma_v2_generated_018",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 79,
+      "example_id": "forma_v2_generated_079",
+      "duplicate_of": "forma_v2_generated_019",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 80,
+      "example_id": "forma_v2_generated_080",
+      "duplicate_of": "forma_v2_generated_020",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 81,
+      "example_id": "forma_v2_generated_081",
+      "duplicate_of": "forma_v2_generated_001",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 82,
+      "example_id": "forma_v2_generated_082",
+      "duplicate_of": "forma_v2_generated_002",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 83,
+      "example_id": "forma_v2_generated_083",
+      "duplicate_of": "forma_v2_generated_003",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 84,
+      "example_id": "forma_v2_generated_084",
+      "duplicate_of": "forma_v2_generated_004",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 85,
+      "example_id": "forma_v2_generated_085",
+      "duplicate_of": "forma_v2_generated_005",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 86,
+      "example_id": "forma_v2_generated_086",
+      "duplicate_of": "forma_v2_generated_006",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 87,
+      "example_id": "forma_v2_generated_087",
+      "duplicate_of": "forma_v2_generated_007",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 88,
+      "example_id": "forma_v2_generated_088",
+      "duplicate_of": "forma_v2_generated_008",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 89,
+      "example_id": "forma_v2_generated_089",
+      "duplicate_of": "forma_v2_generated_009",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 90,
+      "example_id": "forma_v2_generated_090",
+      "duplicate_of": "forma_v2_generated_010",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 91,
+      "example_id": "forma_v2_generated_091",
+      "duplicate_of": "forma_v2_generated_011",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 92,
+      "example_id": "forma_v2_generated_092",
+      "duplicate_of": "forma_v2_generated_012",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 93,
+      "example_id": "forma_v2_generated_093",
+      "duplicate_of": "forma_v2_generated_013",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 94,
+      "example_id": "forma_v2_generated_094",
+      "duplicate_of": "forma_v2_generated_014",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 95,
+      "example_id": "forma_v2_generated_095",
+      "duplicate_of": "forma_v2_generated_015",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 96,
+      "example_id": "forma_v2_generated_096",
+      "duplicate_of": "forma_v2_generated_016",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 97,
+      "example_id": "forma_v2_generated_097",
+      "duplicate_of": "forma_v2_generated_017",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 98,
+      "example_id": "forma_v2_generated_098",
+      "duplicate_of": "forma_v2_generated_018",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 99,
+      "example_id": "forma_v2_generated_099",
+      "duplicate_of": "forma_v2_generated_019",
+      "reason": "duplicate content fingerprint"
+    },
+    {
+      "source": "v2_generated_100_rendered.jsonl",
+      "line": 100,
+      "example_id": "forma_v2_generated_100",
+      "duplicate_of": "forma_v2_generated_020",
+      "reason": "duplicate content fingerprint"
+    }
+  ],
+  "invalid_records_removed": [],
+  "output": "v2_merged_candidate.jsonl",
+  "input_rows": 603,
+  "accepted_rows": 523,
+  "unique_example_ids": 523,
+  "duplicate_rows_removed": 80,
+  "invalid_rows_removed": 0,
+  "statuses": {
+    "needs_review": 500,
+    "rendered_needs_visual_review": 20,
+    "accepted_seed": 3
+  },
+  "requires_semantic_review": true,
+  "note": "Exact duplicates are removed. A reviewer must still check semantic similarity before training."
+}

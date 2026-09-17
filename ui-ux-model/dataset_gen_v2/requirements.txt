@@ -1,0 +1,13 @@
+textual>=0.60
+openai>=1.30
+ddgs>=5.0
+
+# Needed only for the optional screenshot stage (implement -> render ->
+# rate/improve/recreate). Skip these two if you're not using that stage.
+playwright>=1.45
+# After pip install, browser binaries are a separate download:
+#   playwright install chromium
+
+# Needed only for the "Merge datasets" screen / prepare_training_data.py
+# --include-websight / --include-screen2words paths.
+datasets>=2.19

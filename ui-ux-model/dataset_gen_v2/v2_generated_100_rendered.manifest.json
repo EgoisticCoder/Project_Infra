@@ -1,0 +1,14 @@
+{
+  "output": "v2_generated_100_rendered.jsonl",
+  "records": 100,
+  "product_categories": 20,
+  "variants": 5,
+  "render_status": "rendered_needs_visual_review",
+  "desktop_and_mobile_rendered": true,
+  "initial_mobile_overflow_records": 0,
+  "corrected_mobile_overflow_records": 0,
+  "initial_console_error_count": 0,
+  "corrected_console_error_count": 0,
+  "visual_scores": "not assigned; requires human or vision-model review",
+  "next_step": "Review screenshots visually, assign quality scores, then train only accepted records."
+}
