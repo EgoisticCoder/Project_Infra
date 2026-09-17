@@ -99,7 +99,7 @@ pnpm build
 pnpm start
 ```
 
-## Hackathon submission scope
+## Submission scope
 
 V1 demonstrates the complete product loop: a fine-tuned vision-language model, UI/UX-focused data generation, RAG foundations, browser-based checks, a Kaggle training path, and a product landing page. The next milestone is V2: more diverse and human-reviewed screenshot/code pairs, grounded structured critiques, stronger web research/tool use, feedback history, and reliable code generation.
 
