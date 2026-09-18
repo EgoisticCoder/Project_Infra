@@ -120,9 +120,9 @@ The project code is released under the repository license. Base-model and datase
 Infra — **See better. Design smarter.**
 
 ## Links
-https://infra-landing-pagev1.vercel.app/
-https://huggingface.co/spaces/EgoisticCoder/Qifu-v1
-https://huggingface.co/EgoisticCoder/QiFu-v1
-https://www.kaggle.com/datasets/egoisticcoderx/qifu-v1-updated/data
-https://www.kaggle.com/code/egoisticcoderx/qifu-v1-run/edit
-https://www.kaggle.com/code/egoisticcoderx/infra-v2/edit
+https://infra-landing-pagev1.vercel.app/ <br>
+https://huggingface.co/spaces/EgoisticCoder/Qifu-v1 <br>
+https://huggingface.co/EgoisticCoder/QiFu-v1 <br>
+https://www.kaggle.com/datasets/egoisticcoderx/qifu-v1-updated/data <br>
+https://www.kaggle.com/code/egoisticcoderx/qifu-v1-run/edit <br>
+https://www.kaggle.com/code/egoisticcoderx/infra-v2/edit <br>
