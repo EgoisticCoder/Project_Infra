@@ -2,7 +2,7 @@
 
 Infra is building **Forma**, a vision-language UI/UX engineering assistant that reviews interfaces, explains concrete usability and accessibility problems, searches for supporting design patterns, and proposes improved HTML/CSS implementations.
 
-This repository contains the V1 hackathon submission: the landing page, the model/data pipeline, RAG utilities, inference tools, training notebook, validation scripts, and the reviewed V2 dataset candidate.
+This repository contains the V1 submission: the landing page, the model/data pipeline, RAG utilities, inference tools, training notebook, validation scripts, and the reviewed V2 dataset candidate.
 
 ## What exists today
 
