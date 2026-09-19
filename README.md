@@ -126,3 +126,5 @@ https://huggingface.co/EgoisticCoder/QiFu-v1 <br>
 https://www.kaggle.com/datasets/egoisticcoderx/qifu-v1-updated/data <br>
 https://www.kaggle.com/code/egoisticcoderx/qifu-v1-run/edit <br>
 https://www.kaggle.com/code/egoisticcoderx/infra-v2/edit <br>
+https://huggingface.co/EgoisticCoder/forma-v1-lora <br>
+https://huggingface.co/datasets/EgoisticCoder/forma-v1-dataset <br>
